@@ -1,0 +1,47 @@
+2026-10-23 09:00:01 INFO scheduler job nightly-rollup started id=8812
+2026-10-23 09:00:04 INFO scheduler job nightly-rollup finished id=8812 duration_ms=3110
+2026-10-23 09:02:11 INFO api request completed status=200 method=GET path=/api/accounts client=10.4.1.21
+2026-10-23 09:05:44 INFO api request completed status=200 method=GET path=/api/devices client=10.4.1.22
+2026-10-23 09:11:19 WARNING cache miss rate above threshold region=us-east value=0.31
+2026-10-23 09:14:02 INFO worker telemetry batch uploaded devices=412 region=us-east
+2026-10-23 09:21:37 INFO api request completed status=200 method=POST path=/api/login client=10.4.1.30
+2026-10-23 09:26:55 INFO api request completed status=404 method=GET path=/api/legacy client=10.4.1.31
+2026-10-23 09:33:10 WARNING disk usage at 78% host=app-node-2 mount=/var/log
+2026-10-23 09:41:26 INFO worker telemetry batch uploaded devices=389 region=eu-west
+2026-10-23 09:52:03 INFO api request completed status=200 method=GET path=/api/accounts client=10.4.1.21
+2026-10-23 10:02:14 INFO deploy release v2.14.1 started host=app-node-1
+2026-10-23 10:03:40 INFO deploy release v2.14.1 finished host=app-node-1
+2026-10-23 10:07:22 WARNING slow query detected duration_ms=2400 table=sessions
+2026-10-23 10:15:08 ERROR database connection timeout host=db-primary:5432 attempt=1 request_id=7f3a21
+2026-10-23 10:15:19 ERROR database connection timeout host=db-primary:5432 attempt=2 request_id=7f3a22
+2026-10-23 10:15:47 ERROR api request failed status=502 method=GET path=/api/accounts client=10.4.1.21
+2026-10-23 10:16:03 ERROR database connection timeout host=db-primary:5432 attempt=3 request_id=7f3a23
+2026-10-23 10:16:31 ERROR database connection timeout host=db-primary:5432 attempt=1 request_id=7f3a24
+2026-10-23 10:17:02 ERROR api request failed status=502 method=POST path=/api/login client=10.4.1.30
+2026-10-23 10:17:45 ERROR database connection timeout host=db-primary:5432 attempt=2 request_id=7f3a25
+2026-10-23 10:18:12 ERROR database connection timeout host=db-primary:5432 attempt=3 request_id=7f3a26
+2026-10-23 10:19:58 ERROR api request failed status=502 method=GET path=/api/devices client=10.4.1.22
+2026-10-23 10:21:20 WARNING connection pool exhausted active=50 max=50 host=db-primary
+2026-10-23 10:22:41 ERROR database connection timeout host=db-primary:5432 attempt=1 request_id=7f3a27
+2026-10-23 10:23:17 ERROR database connection timeout host=db-primary:5432 attempt=2 request_id=7f3a28
+2026-10-23 10:24:02 ERROR failed to authenticate user session expired user_id=1042 client=10.4.1.44
+2026-10-23 10:24:36 ERROR api request failed status=502 method=GET path=/api/accounts client=10.4.1.25
+2026-10-23 10:25:11 ERROR database connection timeout host=db-primary:5432 attempt=3 request_id=7f3a29
+2026-10-23 10:26:49 ERROR database connection timeout host=db-primary:5432 attempt=1 request_id=7f3a30
+2026-10-23 10:28:05 ERROR failed to authenticate user session expired user_id=2210 client=10.4.1.45
+2026-10-23 10:29:33 CRITICAL database failover initiated host=db-primary reason=unreachable
+2026-10-23 10:30:02 INFO database failover completed new_primary=db-replica-1
+2026-10-23 10:31:44 WARNING connection pool recovering active=12 max=50 host=db-replica-1
+2026-10-23 10:34:19 INFO api request completed status=200 method=GET path=/api/accounts client=10.4.1.21
+2026-10-23 10:37:51 INFO api request completed status=200 method=POST path=/api/login client=10.4.1.30
+2026-10-23 10:42:07 INFO worker telemetry batch uploaded devices=401 region=us-east
+2026-10-23 10:48:29 WARNING cache miss rate above threshold region=us-east value=0.29
+2026-10-23 10:55:13 INFO api request completed status=200 method=GET path=/api/devices client=10.4.1.22
+2026-10-23 11:03:36 INFO scheduler job hourly-metrics started id=8813
+2026-10-23 11:03:39 INFO scheduler job hourly-metrics finished id=8813 duration_ms=2980
+2026-10-23 11:12:48 ERROR failed to authenticate user session expired user_id=3301 client=10.4.1.46
+2026-10-23 11:19:22 INFO api request completed status=200 method=GET path=/api/accounts client=10.4.1.27
+2026-10-23 11:27:59 WARNING slow query detected duration_ms=2100 table=sessions
+2026-10-23 11:35:41 INFO worker telemetry batch uploaded devices=377 region=eu-west
+2026-10-23 11:47:15 INFO api request completed status=200 method=GET path=/api/accounts client=10.4.1.28
+2026-10-23 11:58:03 INFO api request completed status=200 method=GET path=/api/devices client=10.4.1.29
