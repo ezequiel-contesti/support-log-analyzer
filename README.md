@@ -2,6 +2,8 @@
 
 A second pair of eyes for your log files.
 
+Demo video (59 s): https://youtu.be/qrbkv8_H1Jc
+
 A small Python tool that reads a plain-text log and reports what a support
 engineer needs before writing up an incident: severity breakdown, the errors
 that repeat most, when they happened, and a short list of findings.
